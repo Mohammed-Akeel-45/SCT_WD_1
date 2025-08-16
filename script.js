@@ -336,3 +336,5 @@ window.NavigationController = {
     handleScroll,
     smoothScrollToElement
 };
+
+//nothing
