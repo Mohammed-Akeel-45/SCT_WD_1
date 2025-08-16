@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll progress indicator -->
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo" id="logo">WebSite</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" data-page="home" class="nav-link active" id="homeLink">Home</a></li>
+                <li><a href="#" data-page="about" class="nav-link" id="aboutLink">About</a></li>
+                <li><a href="#" data-page="services" class="nav-link" id="servicesLink">Services</a></li>
+                <li><a href="#" data-page="login" class="nav-link" id="loginLink">Login</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div class="page active" id="home">
+        <section class="hero">
+            <h1>Welcome to Our Interactive Website</h1>
+            <p>Experience smooth navigation with dynamic scroll effects</p>
+        </section>
+        <section class="content">
+            <h2>Modern Web Experience</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Responsive Design</h3>
+                    <p>Our website adapts seamlessly to all screen sizes, providing an optimal viewing experience across desktop, tablet, and mobile devices.</p>
+                </div>
+                <div class="card">
+                    <h3>Interactive Navigation</h3>
+                    <p>Navigate through our pages with smooth transitions and hover effects that provide immediate visual feedback to enhance user experience.</p>
+                </div>
+                <div class="card">
+                    <h3>Dynamic Scrolling</h3>
+                    <p>Watch as the navigation bar transforms as you scroll, creating an engaging and modern browsing experience with subtle animations.</p>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div class="page" id="about">
+        <section class="hero">
+            <h1>About Our Company</h1>
+            <p>Learn more about our mission and values</p>
+        </section>
+        <section class="content">
+            <h2>Our Story</h2>
+            <p>Founded in 2020, we have been dedicated to creating exceptional web experiences that combine beautiful design with powerful functionality. Our team of passionate developers and designers work tirelessly to push the boundaries of what's possible on the web.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>To create digital experiences that inspire and engage users while delivering exceptional performance and accessibility.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>To be the leading force in innovative web development, setting new standards for user experience and technical excellence.</p>
+                </div>
+            </div>
+            <p>We believe that great websites are more than just pretty designs – they're powerful tools that can transform businesses and connect people. Every project we undertake is approached with creativity, technical expertise, and a deep understanding of user needs.</p>
+            <p>Our commitment to excellence extends beyond just the final product. We prioritize sustainable development practices, accessibility standards, and continuous learning to ensure we're always delivering the best possible solutions.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </section>
+    </div>
+
+    <!-- Services Page -->
+    <div class="page" id="services">
+        <section class="hero">
+            <h1>Our Services</h1>
+            <p>Comprehensive web solutions for your business</p>
+        </section>
+        <section class="content">
+            <h2>What We Offer</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies, optimized for performance, SEO, and user experience. From simple landing pages to complex web applications.</p>
+                </div>
+                <div class="card">
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful, intuitive designs that prioritize user experience. We create wireframes, prototypes, and final designs that convert visitors into customers.</p>
+                </div>
+                <div class="card">
+                    <h3>Mobile Development</h3>
+                    <p>Responsive designs that work flawlessly across all devices. Native mobile app development for iOS and Android platforms.</p>
+                </div>
+                <div class="card">
+                    <h3>E-commerce Solutions</h3>
+                    <p>Complete online store development with secure payment processing, inventory management, and customer relationship tools.</p>
+                </div>
+                <div class="card">
+                    <h3>Digital Marketing</h3>
+                    <p>SEO optimization, social media marketing, and content strategy to help your business reach its target audience effectively.</p>
+                </div>
+                <div class="card">
+                    <h3>Maintenance & Support</h3>
+                    <p>Ongoing website maintenance, security updates, performance optimization, and technical support to keep your site running smoothly.</p>
+                </div>
+            </div>
+            <p>Additional content to demonstrate scroll effects. This extra content ensures there's enough scrollable area to trigger the navigation changes properly.</p>
+        </section>
+    </div>
+
+    <!-- Login Page -->
+    <div class="page" id="login">
+        <section class="hero">
+            <h1>Login to Your Account</h1>
+            <p>Access your dashboard and manage your account</p>
+        </section>
+        <section class="content">
+            <div class="form-container">
+                <h2>Sign In</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Sign In</button>
+                    </div>
+                </form>
+                <p style="text-align: center; margin-top: 1rem;">
+                    Don't have an account? <a href="#" style="color: #667eea;">Sign up here</a>
+                </p>
+            </div>
+            <p>Additional login page content to ensure proper scrolling behavior and test the navigation effects.</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
