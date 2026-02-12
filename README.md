@@ -158,3 +158,4 @@ Project Link: [https://github.com/Mohammed-Akeel-45/SCT_WD_1](https://github.com
 ---
 
 ⭐ Don't forget to give the project a star if you liked it!
+narendra told this is all vibecoded
